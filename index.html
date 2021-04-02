@@ -1,1 +1,28 @@
-hello kakao!!!
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>지도 페이지</title>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/login.css" /> -->
+    <!-- <script src="./js/login.js"></script> -->
+    <script src="./js/config_variable.js"></script>
+    
+</head>
+<body>
+    <div id="map" style="width:500px;height:400px;"></div>
+    <script type="text/javascript" src=KAKAO_MAP_APPKEY></script>
+    <script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+</body>
+</html>

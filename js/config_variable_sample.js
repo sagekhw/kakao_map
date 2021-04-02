@@ -1,0 +1,1 @@
+const KAKAO_MAP_APPKEY = "//dapi.kakao.com/v2/maps/sdk.js?appkey=<appkey input>";
