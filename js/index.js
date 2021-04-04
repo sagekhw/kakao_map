@@ -1,7 +1,7 @@
 // var latitude = "";
 // var longitude = "";
 
-// alert("hellop");
+// // alert("hellop");
 
 // function getLocation() {
 //     if (navigator.geolocation) { // GPS를 지원하면
@@ -20,7 +20,9 @@
 //         alert('GPS를 지원하지 않습니다');
 //     }
 // }
-
+function hello(){
+    alert(latitude + longitude);
+}
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
